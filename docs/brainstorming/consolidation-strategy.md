@@ -37,14 +37,14 @@ The Hugging Science community is working together to accelerate this. This docum
 We've been building two complementary pipelines:
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────────────┐
 │                        PRODUCTION PIPELINE                               │
 │                        (Upload TO HuggingFace)                           │
 │                                                                          │
-│   OpenNeuro BIDS ──► Validate ──► Convert ──► push_to_hub() ──► HF Hub  │
+│   OpenNeuro BIDS ──► Validate ──► Convert ──► push_to_hub() ──► HF Hub   │
 │                                                                          │
-│   Repos: arc-aphasia-bids, stroke-deepisles-demo                        │
-└─────────────────────────────────────────────────────────────────────────┘
+│   Repos: arc-aphasia-bids, stroke-deepisles-demo                         │
+└──────────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
                          ┌───────────────────┐
@@ -53,25 +53,25 @@ We've been building two complementary pipelines:
                          └───────────────────┘
                                     │
                                     ▼
-┌─────────────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────────────┐
 │                       CONSUMPTION PIPELINE                               │
 │                       (Load FROM HuggingFace)                            │
 │                                                                          │
-│   load_dataset('bids') ──► Stream ──► Decode Nifti ──► NiiVue viz       │
+│   load_dataset('bids') ──► Stream ──► Decode Nifti ──► NiiVue viz        │
 │                                                                          │
-│   PRs: #7886 (BIDS loader), #7815 (Nifti), #7874 (visualization)        │
-└─────────────────────────────────────────────────────────────────────────┘
+│   PRs: #7886 (BIDS loader), #7815 (Nifti), #7874 (visualization)         │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ## Ecosystem Overview
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────────────────┐
 │                     neuroimaging-go-brrrr                                │
 │                     ═══════════════════════                              │
 │                     CONSOLIDATION HUB                                    │
 │                                                                          │
-│  Purpose: Coordinate community efforts to accelerate HF neuroimaging    │
+│  Purpose: Coordinate community efforts to accelerate HF neuroimaging     │
 │                                                                          │
 │  Current contents:                                                       │
 │  ├── scripts/                                                            │
@@ -81,7 +81,7 @@ We've been building two complementary pipelines:
 │  │   ├── arc-aphasia-bids/                                               │
 │  │   └── bids-neuroimaging/  (HF Space visualization)                    │
 │  └── README.md                                                           │
-└─────────────────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────────────────┘
                                     ▲
                                     │ (consolidates)
         ┌───────────────────────────┼───────────────────────────┐
