@@ -16,5 +16,6 @@ This is a growing list of resources that might help us in our task. At best once
             - https://github.com/ezequieldlrosa/DeepIsles: more recent algorithm that bootstraps multiple previous solutions from the isles22 challenge, e.g. includes the one from mahfuzmohammad and others. Published in Nature.
             - https://github.com/mahfuzmohammad/isles22: A submitted solution for isles22, not actively maintained
      - fMRI foundation model: https://github.com/MedARC-AI/fmri-fm
+     - Skull stripping: https://surfer.nmr.mgh.harvard.edu/docs/synthstrip/, for code see links below
  - papers:
      - SOTA lesion segmentation with few parameters: https://arxiv.org/html/2503.05531v1
