@@ -12,8 +12,6 @@ def test_imports() -> None:
 
     assert True
 
-    # import datasets  # type: ignore # Ignore missing datasets stubs
-
 
 def test_scripts_exist() -> None:
     """Verify key scripts exist."""
